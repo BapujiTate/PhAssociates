@@ -1,0 +1,245 @@
+
+/* Header CSS */
+.header_image{
+  margin-bottom: 40px;
+  width: auto;
+  height: 500px;
+  background-image: url("homeImage2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerLogo{
+  padding: 20px 30px;
+  position: fixed;
+  z-index: 1;
+}
+
+/* .headerImage{
+  margin-top: 400px;
+  width: 400px;
+  height: 200px;
+} */
+
+.headerName{
+  position: sticky;
+  top: 0;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+  margin: 250px 0 auto 0;
+  padding: 0 10px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #8ffaff;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.phAss{
+  background-color: rgba(100, 100, 100, 0.3);
+  padding: 20px 10px;
+  border-radius: 50px;
+}
+
+.phAss:hover{
+  color: #000000;
+  text-shadow: 2px 2px 5px #8ffaff;
+}
+
+.image {
+    float: left;
+    border-radius: 100%;
+
+    animation-name: spin;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        } to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+/* Navigation Bar CSS*/
+.navigationBarDiv{
+  padding: 5px 200px;
+}
+
+.navCss{
+  background-color: #D8E3E7;
+  border-radius: 45px;
+}
+
+.navbar-brand {
+  font-family: "monospace";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+/* Section First & Second CSS */
+#outerBox {
+  margin: 30px 0 20px;
+}
+
+.first {
+  height: auto;
+  background-color: #FF616D;
+}
+
+.second {
+  height: auto;
+}
+
+.phAboutHeadline {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.phAboutText {
+  font-size: 18px;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.sectionHeader {
+  padding: 5% 10% 5%;
+}
+
+.imgh {
+  padding: 15% 5% 15%;
+  width: 100%;
+}
+
+/* Review Secction CSS */
+.reviewDiv{
+  padding: 50px 50px;
+}
+
+.reviewHeader{
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight:bold;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.reviewContent{
+  margin: 100px auto 0 auto;
+}
+
+.theySays{
+  margin: 50px 10px 0;
+  font-size: 30px;
+  /* font-family: 'Baloo Tammudu 2', cursive; */
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.reviewImage{
+  background-image: url("makeIt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 900px;
+}
+
+
+/* Message Section CSS */
+#messageSection{
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+.messageContainer{
+  background-color: #FFFFFF;
+  padding: 50px 0;
+}
+
+.address{
+  list-style: none;
+}
+
+.firmAddress{
+  margin: 50px 0;
+}
+
+.h2ForMessageSection{
+  color: red;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+}
+
+ .messageSectionContent{
+   font-size: 20px;
+   font-family: 'Baloo Tammudu 2', cursive;
+ }
+
+.messageForm{
+  padding: 10px 50px;
+}
+
+.submitButton{
+  background-color: #f00;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 45px;
+}
+
+.submitButton:hover{
+  background-color: #66DE93;
+}
+
+
+/* Contact Section CSS */
+.line{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.contactMe{
+  padding: 1% 5%;
+  position: relative;
+}
+
+.h4-Contacts{
+  font-weight: bold;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+ h4.h4-Contacts:hover, h4.h4-Contacts:active{
+  font-size: 40px;
+}
+
+.icons{
+  color: #BF1363;
+  padding-bottom: 2%;
+}
+
+.icons:hover{
+  color: #F54748;
+}
+
+
+/* Footer-Section */
+.footerBackground{
+  width: auto;
+  height: 700px;
+  background-position: center;
+  background-image: url("posterForJourney.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer{
+  padding: 2% 0;
+  text-align: center;
+  font-family: "monospace";
+  font-size: 15px;
+}
